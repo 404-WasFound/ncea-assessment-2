@@ -1,0 +1,58 @@
+	1. Who are you as a company?
+		Some one who needs someone else to do the development. Expertise in building sites for other people, etc.
+
+	2. What is the purpose of the website?
+		People who are passionate about motor classic and modified vehicles with history and restoration processes, insights into modification products, credibility of mods / restorations.
+
+	3. What do you want the website to contain?
+		Third party analysis, risk assessment, professionals opinions.
+		Link to companies from brands mentioned.
+		All within internal site.
+		Search engine optimization -- keywords and content.
+
+	4. What type of people is the site directed to?
+		People who like restoring and modifying cars / buying them.
+		Large range of age ranges.
+
+	5. What do you want to achieve with this site?
+		Creating a community.
+		Creating profit, advertisements, referrals, money from customers.
+
+	6. What design choices do you want for the website?
+		Landing page: Tuned to the user, show what they like, user data-orientated, articles and links of certain things related to what the user likes and what they might / are interested in. Teasers to make people want to read more and go the other site with the information.
+
+	7. How accessible should the site be?
+		Most people who are using the site will be able to easily understand technology because the target market will be efficient in technology.
+
+	8. How far back should the site support?
+		Latest browsers, using HTML 5, Javascript support.
+
+	9. What services should the site intergrate?
+		Allow people to upload files, backend finances and billing systems, user registration, credit card payments -- integration payment gateways (possibly 'Stripe'); all this must be secure and confidential.
+	
+	10. What pages do you want the site to contain?
+		Home page - links to all the other pages
+		TOS - Legalities / use
+		About us
+		Contact
+		
+		Forums
+		Type of car - Style / classifications
+	
+	11. Is there a specific time the site needs to be fully setup and working?
+		2 months
+		
+	12. Should the site be international or national?
+		National
+
+	13. What are your hosting needs?
+		Hosted on AWS Cloud (Sydney)
+
+	14. Are there any restraints, mandates, or guidelines for the site?
+		TOS - Provided by client
+Selling rules, etc
+
+	15. Why will people want to return to your website?
+		Cars for sale / parts for sale
+		Forum discussions
+		Limited cars / parts
