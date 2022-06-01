@@ -9,29 +9,8 @@ body {
   text-align: center;
 }
 
-.bar {
-  background-color: darkgoldenrod;
-  padding: 20px;
-  border-radius: 80px;
-}
-
-.bar a {
-  text-decoration: none;
-  color: darkorchid;
-  padding: 20px;
-  background-color: #8b0000;
-  border-radius: 99px;
-  -webkit-transition: ease-out 250ms;
-  transition: ease-out 250ms;
-}
-
-.bar a:hover {
-  background-color: mediumaquamarine;
-  color: midnightblue;
-  padding-left: 90px;
-  padding-right: 90px;
-  -webkit-transition: ease-in 250ms;
-  transition: ease-in 250ms;
+.bar .testItem {
+  display: inline-block;
 }
 
 .image {

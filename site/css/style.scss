@@ -1,7 +1,7 @@
 // Variables
 :root {
 
-    --sus-expand: scale(2);
+    $sus-expand: scale(2);
 
 }
 
@@ -16,32 +16,7 @@ body {
 
 .bar {
 
-    background-color: darkgoldenrod;
-    padding: 20px;
-    border-radius: 80px;
     
-    a {
-
-        text-decoration: none;
-        color: darkorchid;
-        padding: 20px;
-        background-color: #8b0000;
-        border-radius: 99px;
-
-        transition: ease-out 250ms;
-
-    }
-
-    a:hover {
-
-        background-color: mediumaquamarine;
-        color: midnightblue;
-        padding-left: 90px;
-        padding-right: 90px;
-        
-        transition: ease-in 250ms;
-
-    }
 
 }
 
@@ -56,6 +31,6 @@ body {
 
 .image:hover {
 
-    transform: var(--sus-expand);
+    transform: scale(random(5));
 
 }

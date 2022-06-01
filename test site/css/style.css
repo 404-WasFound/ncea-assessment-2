@@ -1,0 +1,37 @@
+body {
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body .navBar a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  text-align: center;
+  background-color: red;
+  padding: 10px;
+  float: left;
+  text-decoration: none;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  -webkit-box-shadow: 0px 10px 8px black;
+          box-shadow: 0px 10px 8px black;
+}
+
+body .navBar a img {
+  width: 35px;
+  height: 35px;
+}
+
+body .navBar a:hover {
+  background-color: aquamarine;
+}
+/*# sourceMappingURL=style.css.map */

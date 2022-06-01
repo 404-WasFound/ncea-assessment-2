@@ -1,0 +1,12 @@
+LIMIT SCROLLING
+SIMPLE / CLEAN
+
+move about / contact to home footer
+remove home search
+drop shadows
+home link as image in navbar
+header image carousel
+ads maybe?
+chat bottom right
+
+bring up listings / full width / make bigger
