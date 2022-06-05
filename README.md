@@ -81,7 +81,7 @@
 
 ### Wireframes
 ![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
-![Listing-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listing-desktop.jpg)
+![Listing-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-desktop.jpg)
 ![Login-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-desktop.jpg)
 ![Profile-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-desktop.jpg)
 ![Register-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-desktop.jpg)
