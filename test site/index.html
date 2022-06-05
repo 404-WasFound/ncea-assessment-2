@@ -17,13 +17,27 @@
 
         <!-- Navbar -->
 
-        <div class="navBar">
+        <ul class="navBar">
 
-            <a href="index.html"> <img src="assets/among.png" alt="HOMEIMAGE"> </a>
-            <a href="index.html"> Listing </a>
-            <a href="index.html"> Forum </a>
+            <li> <a href="index.html" id="nav-item" class="nav-image"> <img src="assets/among.png" alt="HOMEIMAGE"> </a> </li>
+            <li> <a href="index.html" id="nav-item" class="nav-link"> Home </a> </li>
+            <li> <a href="index.html" id="nav-item" class="nav-link"> Listing </a> </li>
+            <li> <a href="index.html" id="nav-item" class="nav-link"> Forum </a> </li>
+            <li class="nav-dropdown">
+            
+                <span class="nav-link"> Profile </span>
 
-        </div>
+                <div class="nav-dropdown-content">
+
+                    <a href="index.html" class="nav-dropdown-link"> Profile </a> 
+                    <a href="index.html" class="nav-dropdown-link"> Register </a> 
+                    <a href="index.html" class="nav-dropdown-link"> Login </a> 
+
+                </div>
+            
+            </li>
+
+        </ul>
 
     </body>
 

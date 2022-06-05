@@ -3,35 +3,73 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body .navBar a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+body .navBar {
+  width: 100vw;
+  height: 5vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: block;
   overflow: hidden;
-  text-align: center;
-  background-color: red;
-  padding: 10px;
-  float: left;
-  text-decoration: none;
-  position: relative;
-  top: -10px;
-  left: -10px;
-  -webkit-box-shadow: 0px 10px 8px black;
-          box-shadow: 0px 10px 8px black;
 }
 
-body .navBar a img {
-  width: 35px;
-  height: 35px;
+body .navBar li {
+  background-color: red;
+  float: left;
+  height: 100%;
+}
+
+body .navBar li a {
+  text-align: center;
+  text-decoration: none;
+}
+
+body .navBar li .nav-link {
+  padding-inline: 4vh;
+  width: 20%;
+}
+
+body .navBar li .nav-image {
+  width: 10vw;
+}
+
+body .navBar li .nav-image img {
+  width: 5vh;
+  height: 5vh;
 }
 
 body .navBar a:hover {
   background-color: aquamarine;
+}
+
+body .navBar .nav-dropdown {
+  display: inline-block;
+}
+
+body .navBar .nav-dropdown span:hover {
+  background-color: aquamarine;
+}
+
+body .navBar .nav-dropdown-content {
+  display: none;
+  position: absolute;
+  padding-inline: 0vh;
+  z-index: 1;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+body .navBar .nav-dropdown-content .nav-dropdown-link {
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+body .navBar .nav-dropdown-content a:hover {
+  background-color: aquamarine;
+}
+
+body .navBar .nav-dropdown:hover .nav-dropdown-content {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
