@@ -80,14 +80,14 @@
 #
 
 ### Wireframes
-![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Home-Desktop.jpg)
-![Listing-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Listing-Desktop.jpg)
-![Login-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Login-Desktop.jpg)
-![Profile-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Profile-Desktop.jpg)
-![Register-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Register-Desktop.jpg)
+![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
+![Listing-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listing-desktop.jpg)
+![Login-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-desktop.jpg)
+![Profile-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-desktop.jpg)
+![Register-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-desktop.jpg)
 
-![Home-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Home-Mobile.jpg)
-![Listing-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Listing-Mobile.jpg)
-![Login-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Login-Mobile.jpg)
-![Profile-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Profile-Mobile.jpg)
-![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/Register-Mobile.jpg)
+![Home-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-mobile.jpg)
+![Listing-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listing-mobile.jpg)
+![Login-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-mobile.jpg)
+![Profile-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-mobile.jpg)
+![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-mobile.jpg)
