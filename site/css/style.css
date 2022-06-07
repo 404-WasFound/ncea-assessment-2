@@ -1,16 +1,8 @@
-:root {
-  --sus-expand: scale(2);
-}
-
 body {
   background-color: chartreuse;
   font-family: 'Courier New', Courier, monospace;
   color: cornflowerblue;
   text-align: center;
-}
-
-.bar .testItem {
-  display: inline-block;
 }
 
 .image {
@@ -23,7 +15,7 @@ body {
 }
 
 .image:hover {
-  -webkit-transform: var(--sus-expand);
-          transform: var(--sus-expand);
+  -webkit-transform: scale(5);
+          transform: scale(5);
 }
 /*# sourceMappingURL=style.css.map */

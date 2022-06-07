@@ -1,100 +1,56 @@
 body {
 
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4vh;
+    background-color: rgb(7, 0, 24);
 
-    .navBar {
+    .navbar {
 
-        width: 100vw;
-        height: 5vh;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: block;
-        overflow: hidden;
+        display: grid;
+        grid-auto-flow: column;
+        gap: 1vh;
+        float: left;
+        background-color: brown;
+        padding: 1vh;
+        border-radius: 1vw;
+        height: fit-content;
 
-        li {
+        .navbar-item-link {
 
+            text-decoration: none;
+            text-align: center;
+            border-radius: 1vw;
+            height: 5vh;
+            width: 10vw;
             background-color: red;
-            float: left;
+            padding: 10px;
+            overflow: hidden;
 
-            height: 100%;
+        }
 
-            a {
-                
-                text-align: center;
-                text-decoration: none;
+        .navbar-item-image {
 
-            }
+            text-decoration: none;
+            border-radius: 1vw;
+            height: 5vh;
+            width: 5vh;
+            background-color: red;
+            text-align: center;
+            padding: 10px;
 
-            .nav-link {
+            img {
 
-                padding-inline: 4vh;
-                width: 20%;
-
-            }
-
-            .nav-image {
-
-                img {
-
-                    width: 5vh;
-                    height: 5vh;
-
-                }
-
-                width: 10vw;
+                height: 5vh;
+                width: 5vh;
+                border-radius: 1vw;
 
             }
 
         }
 
-        a:hover {
+        #navbar-item:hover {
 
-            background-color: aquamarine;
-
-        }
-
-        .nav-dropdown {
-
-            display: inline-block;
-
-            span:hover {
-
-                background-color: aquamarine;
-    
-            }
-
-        }
-
-        .nav-dropdown-content {
-
-            display: none;
-            position: absolute;
-            padding-inline: 0vh;
-            z-index: 1;
-
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-
-            .nav-dropdown-link {
-
-                display: block;
-                background-color: black;
-                color: white;
-
-            }
-
-            a:hover {
-
-                background-color: aquamarine;
-    
-            }
-
-        }
-
-        .nav-dropdown:hover .nav-dropdown-content {
-
-            display: block;
+            background-color: aqua;
 
         }
 

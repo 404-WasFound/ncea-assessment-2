@@ -1,75 +1,51 @@
 body {
-  font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 4vh;
+  background-color: #070018;
 }
 
-body .navBar {
-  width: 100vw;
+body .navbar {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1vh;
+  float: left;
+  background-color: brown;
+  padding: 1vh;
+  border-radius: 1vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body .navbar .navbar-item-link {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1vw;
   height: 5vh;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: block;
+  width: 10vw;
+  background-color: red;
+  padding: 10px;
   overflow: hidden;
 }
 
-body .navBar li {
-  background-color: red;
-  float: left;
-  height: 100%;
-}
-
-body .navBar li a {
-  text-align: center;
+body .navbar .navbar-item-image {
   text-decoration: none;
-}
-
-body .navBar li .nav-link {
-  padding-inline: 4vh;
-  width: 20%;
-}
-
-body .navBar li .nav-image {
-  width: 10vw;
-}
-
-body .navBar li .nav-image img {
-  width: 5vh;
+  border-radius: 1vw;
   height: 5vh;
+  width: 5vh;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
 }
 
-body .navBar a:hover {
-  background-color: aquamarine;
+body .navbar .navbar-item-image img {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 1vw;
 }
 
-body .navBar .nav-dropdown {
-  display: inline-block;
-}
-
-body .navBar .nav-dropdown span:hover {
-  background-color: aquamarine;
-}
-
-body .navBar .nav-dropdown-content {
-  display: none;
-  position: absolute;
-  padding-inline: 0vh;
-  z-index: 1;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-body .navBar .nav-dropdown-content .nav-dropdown-link {
-  display: block;
-  background-color: black;
-  color: white;
-}
-
-body .navBar .nav-dropdown-content a:hover {
-  background-color: aquamarine;
-}
-
-body .navBar .nav-dropdown:hover .nav-dropdown-content {
-  display: block;
+body .navbar #navbar-item:hover {
+  background-color: aqua;
 }
 /*# sourceMappingURL=style.css.map */
