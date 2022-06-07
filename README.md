@@ -79,6 +79,9 @@
     - Limited cars / parts
 #
 
+### Brief
+My Dad has been working in the I.T. industry for about 30 years. The goal for this site is to create a place for people who are into classic and modified cars to talk about and sell their projects. Each car will have a lengthy description of its history of owners and parts. There will also be a forum section where you can ask other people questions about cars. Whether it be asking how to install a part or if a car is worth buying and what you should look for. It is a tedious process to go through lots of sites to find a specific, rare car. So having all lots of sales on one site, it is much easier to find what you're looking for. The site needs to be completed in 8 weeks. But the time limit can be extended if need be. The site will be created using HTML and CSS with possible Javascript. It will contain a [Home Page], [About Page], [Contact Page], [Listings Page], [Forum Page], and a [Profile Page].
+
 ### Wireframes
 ![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
 ![Listings-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-desktop.jpg)
