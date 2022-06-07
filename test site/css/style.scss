@@ -54,6 +54,37 @@ body {
 
         }
 
+        //
+
+        .navbar-dropdown-item {
+
+            position: relative;
+            display: inline-block;
+
+        }
+
+        .navbar-dropdown-item-content {
+
+            display: none;
+            position: absolute;
+            background-color: blueviolet;
+            padding: 10px 20px;
+            z-index: 1;
+
+            a {
+
+                display: block;
+
+            }
+
+        }
+
+        .navbar-dropdown-item:hover .navbar-dropdown-item-content {
+
+            display: block;
+
+        }
+
     }
 
 }
