@@ -7,7 +7,7 @@
 ### Stakeholder Questions
 <details>
 <summary> **Click To Expand** </summary>
-#
+    
 - **Who are you as a company?**
     - Someone who needs someone else to do the development. Expertise in building sites for other people, etc.
 #
