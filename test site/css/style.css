@@ -27,25 +27,51 @@ body .navbar .navbar-item-link {
   background-color: red;
   padding: 10px;
   overflow: hidden;
+  color: white;
 }
 
 body .navbar .navbar-item-image {
-  text-decoration: none;
   border-radius: 1vw;
-  height: 5vh;
-  width: 5vh;
-  background-color: red;
-  text-align: center;
-  padding: 10px;
+  width: calc(5vh + 20px);
+  height: calc(5vh + 20px);
 }
 
 body .navbar .navbar-item-image img {
-  height: 5vh;
-  width: 5vh;
+  width: calc(5vh + 20px);
+  height: calc(5vh + 20px);
   border-radius: 1vw;
 }
 
 body .navbar #navbar-item:hover {
-  background-color: aqua;
+  background-color: yellow;
+  color: black;
+}
+
+body .navbar .navbar-dropdown-item {
+  position: relative;
+  display: inline-block;
+}
+
+body .navbar .navbar-dropdown-item-content {
+  display: none;
+  position: absolute;
+  background-color: brown;
+  padding: 1vh;
+  border-radius: 1vw;
+  z-index: 1;
+}
+
+body .navbar .navbar-dropdown-item-content a {
+  display: block;
+  background-color: red;
+  border-radius: 1vw;
+  margin-bottom: calc(1vh / 2);
+  margin-top: calc(1vh / 2);
+  text-decoration: none;
+  color: white;
+}
+
+body .navbar .navbar-dropdown-item:hover .navbar-dropdown-item-content {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
