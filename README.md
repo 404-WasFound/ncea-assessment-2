@@ -88,6 +88,7 @@ My Dad has been working in the I.T. industry for about 30 years. The goal for th
 
 ### Specifications
 The site needs to be completed in 8 weeks. But the time limit can be extended if need be. The site will be created using HTML and CSS with possible Javascript. It will contain a [Home Page], [About Page], [Contact Page], [Listings Page], [Forum Page], and a [Profile Page].
+The targetted audience is people who are interested in modified and classic cars.
 
 ### Wireframes
 ![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
