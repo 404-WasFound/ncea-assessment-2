@@ -93,6 +93,7 @@ The targetted audience is people who are interested in modified and classic cars
 ### Wireframes
 
 **Iterations**
+
 My client said that instead of putting lots of stuff on the home page, it should be split off onto other pages. And that the pages should have less white space and should have the content closer together and bigger. They also said that I needed to add articles about cars and other motoring themes on the side for advertising.
 
 ![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
