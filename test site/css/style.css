@@ -1,77 +1,48 @@
+:root {
+  --total-navbar-items: 5;
+  --grid-gap: 0px;
+  --navbar-items-width: calc((100vw / var(--total-navbar-items)) - (var(--grid-gap) * (var(--total-navbar-items) + 1)));
+  --navbar-items-height: 100px;
+}
+
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 4vh;
-  background-color: #070018;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  padding: 0;
 }
 
 body .navbar {
   display: -ms-grid;
   display: grid;
-  grid-auto-flow: column;
-  gap: 1vh;
-  float: left;
-  background-color: brown;
-  padding: 1vh;
-  border-radius: 1vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
+  -ms-grid-columns: auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto;
+  grid-gap: var(--grid-gap);
+  width: 100vw;
+  height: var(--navbar-items-height);
 }
 
-body .navbar .navbar-item-link {
-  text-decoration: none;
-  text-align: center;
-  border-radius: 1vw;
-  height: 5vh;
-  width: 10vw;
-  background-color: red;
-  padding: 10px;
-  overflow: hidden;
+body .navbar a {
   color: white;
-}
-
-body .navbar .navbar-item-image {
-  border-radius: 1vw;
-  width: calc(5vh + 20px);
-  height: calc(5vh + 20px);
-}
-
-body .navbar .navbar-item-image img {
-  width: calc(5vh + 20px);
-  height: calc(5vh + 20px);
-  border-radius: 1vw;
-}
-
-body .navbar #navbar-item:hover {
-  background-color: yellow;
-  color: black;
-}
-
-body .navbar .navbar-dropdown-item {
-  position: relative;
-  display: inline-block;
-}
-
-body .navbar .navbar-dropdown-item-content {
-  display: none;
-  position: absolute;
-  background-color: brown;
-  padding: 1vh;
-  border-radius: 1vw;
-  z-index: 1;
-}
-
-body .navbar .navbar-dropdown-item-content a {
-  display: block;
-  background-color: red;
-  border-radius: 1vw;
-  margin-bottom: calc(1vh / 2);
-  margin-top: calc(1vh / 2);
+  grid-column: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
-  color: white;
+  width: var(--navbar-items-width);
+  height: var(--navbar-items-height);
+  background-color: blue;
 }
 
-body .navbar .navbar-dropdown-item:hover .navbar-dropdown-item-content {
-  display: block;
+body .navbar a:hover {
+  background-color: red;
+  color: yellow;
 }
 /*# sourceMappingURL=style.css.map */

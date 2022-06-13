@@ -1,92 +1,46 @@
+:root {
+
+    --total-navbar-items: 5;
+    --grid-gap: 0px;
+    --navbar-items-width: calc((100vw / var(--total-navbar-items)) - (var(--grid-gap) * (var(--total-navbar-items) + 1)));
+    --navbar-items-height: 100px;
+
+}
+
 body {
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 4vh;
-    background-color: rgb(7, 0, 24);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    padding: 0;
 
     .navbar {
 
         display: grid;
-        grid-auto-flow: column;
-        gap: 1vh;
-        float: left;
-        background-color: brown;
-        padding: 1vh;
-        border-radius: 1vw;
-        height: fit-content;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: var(--grid-gap);
+        width: 100vw;
+        height: var(--navbar-items-height);
 
-        .navbar-item-link {
+        a {
 
-            text-decoration: none;
-            text-align: center;
-            border-radius: 1vw;
-            height: 5vh;
-            width: 10vw;
-            background-color: red;
-            padding: 10px;
-            overflow: hidden;
             color: white;
+            grid-column: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            width: var(--navbar-items-width);
+            height: var(--navbar-items-height);
+            background-color: blue;
 
-        }
+            &:hover {
 
-        .navbar-item-image {
-
-            border-radius: 1vw;
-            width: calc(5vh + 20px);
-            height: calc(5vh + 20px);
-
-            img {
-
-                width: calc(5vh + 20px);
-                height: calc(5vh + 20px);
-                border-radius: 1vw;
-
-            }
-
-        }
-
-        #navbar-item:hover {
-
-            background-color: rgb(255, 255, 0);
-            color: black;
-
-        }
-
-        // DROPDOWN
-
-        .navbar-dropdown-item {
-
-            position: relative;
-            display: inline-block;
-
-        }
-
-        .navbar-dropdown-item-content {
-
-            display: none;
-            position: absolute;
-            background-color: brown;
-            padding: 1vh;
-            border-radius: 1vw;
-            z-index: 1;
-
-            a {
-
-                display: block;
                 background-color: red;
-                border-radius: 1vw;
-                margin-bottom: calc(1vh / 2);
-                margin-top: calc(1vh / 2);
-                text-decoration: none;
-                color: white;
+                color: yellow;
 
             }
-
-        }
-
-        .navbar-dropdown-item:hover .navbar-dropdown-item-content {
-
-            display: block;
 
         }
 
