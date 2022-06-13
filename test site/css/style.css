@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --total-navbar-items: 5;
   --grid-gap: 0px;
@@ -45,4 +46,56 @@ body .navbar a:hover {
   background-color: red;
   color: yellow;
 }
+=======
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 4vh;
+  background-color: #070018;
+}
+
+body .navbar {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1vh;
+  float: left;
+  background-color: brown;
+  padding: 1vh;
+  border-radius: 1vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body .navbar .navbar-item-link {
+  text-decoration: none;
+  text-align: center;
+  border-radius: 1vw;
+  height: 5vh;
+  width: 10vw;
+  background-color: red;
+  padding: 10px;
+  overflow: hidden;
+}
+
+body .navbar .navbar-item-image {
+  text-decoration: none;
+  border-radius: 1vw;
+  height: 5vh;
+  width: 5vh;
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+}
+
+body .navbar .navbar-item-image img {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 1vw;
+}
+
+body .navbar #navbar-item:hover {
+  background-color: aqua;
+}
+>>>>>>> d549aefa1eab82aff033c8203b288fe96cd6aba0
 /*# sourceMappingURL=style.css.map */
