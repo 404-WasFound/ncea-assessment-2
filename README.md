@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Long bay college logo](https://www.longbaycollege.com/wp-content/uploads/2020/09/Long_Bay_College_Logo_Tag2-1024x141.png)
 
 # **NCEA L1 Assessment** \[91878\] - Develop a design for a digital outcome
@@ -109,7 +108,6 @@ The site needs to be completed in 8 weeks. But the time limit can be extended if
 ![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-mobile.jpg)
 
 </details>
-=======
 ![Long bay college logo](https://www.longbaycollege.com/wp-content/uploads/2020/09/Long_Bay_College_Logo_Tag2-1024x141.png)
 
 # **NCEA L1 Assessment** \[91878\] - Develop a design for a digital outcome
@@ -219,4 +217,3 @@ My client said that instead of putting lots of stuff on the home page, it should
 ![Login-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-mobile.jpg)
 ![Profile-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-mobile.jpg)
 ![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-mobile.jpg)
->>>>>>> d549aefa1eab82aff033c8203b288fe96cd6aba0
