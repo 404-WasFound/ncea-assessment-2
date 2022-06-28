@@ -109,23 +109,8 @@ The site needs to be completed in 8 weeks. But the time limit can be extended if
 My Dad has been working in the I.T. industry for about 30 years. The goal for this site is to create a place for people who are into classic and modified cars to talk about and sell their projects. Each car will have a lengthy description of its history of owners and parts. There will also be a forum section where you can ask other people questions about cars. Whether it be asking how to install a part or if a car is worth buying and what you should look for. It is a tedious process to go through lots of sites to find a specific, rare car. So having all lots of sales on one site, it is much easier to find what you're looking for.
 
 ### Specifications
-The site needs to be completed in 8 weeks. But the time limit can be extended if need be. The site will be created using HTML and CSS with possible Javascript. It will contain a [Home Page], [About Page], [Contact Page], [Listings Page], [Forum Page], and a [Profile Page].
+The site needs to be completed in 8 weeks. But the time limit can be extended if need be. The site will be created using HTML and CSS with possible Javascript. It will contain a [Home Page], [About Page], and a [Listings Page].
 The targetted audience is people who are interested in modified and classic cars.
 
-### Wireframes
-
-**Iterations**
-
+### Wireframe Iterations
 My client said that instead of putting lots of stuff on the home page, it should be split off onto other pages. And that the pages should have less white space and should have the content closer together and bigger. They also said that I needed to add articles about cars and other motoring themes on the side for advertising.
-
-![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
-![Listings-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-desktop.jpg)
-![Login-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-desktop.jpg)
-![Profile-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-desktop.jpg)
-![Register-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-desktop.jpg)
-
-![Home-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-mobile.jpg)
-![Listings-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-mobile.jpg)
-![Login-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-mobile.jpg)
-![Profile-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-mobile.jpg)
-![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-mobile.jpg)
