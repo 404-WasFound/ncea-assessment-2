@@ -93,16 +93,9 @@ The site needs to be completed in 8 weeks. But the time limit can be extended if
 
 ![Home-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-desktop.jpg)
 ![Listings-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-desktop.jpg)
-![Login-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-desktop.jpg)
-![Profile-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-desktop.jpg)
-![Register-Desktop](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-desktop.jpg)
 
 ![Home-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/home-mobile.jpg)
 ![Listings-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/listings-mobile.jpg)
-![Login-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/login-mobile.jpg)
-![Profile-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/profile-mobile.jpg)
-![Register-Mobile](https://github.com/404-WasFound/ncea-assessment-2/blob/main/plan/wireframes/register-mobile.jpg)
-
 </details>
 
 ### Brief
